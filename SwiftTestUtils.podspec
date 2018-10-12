@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.social_media_url      = 'https://twitter.com/gligor_nz'
   s.platform              = :ios, '8.0'
   s.ios.deployment_target = '8.0'
-  s.source                = { :git => 'https://github.com/gligorkot/SwiftTestUtils.git', :branch => 'master' }
+  s.source                = { :git => 'https://github.com/gligorkot/SwiftTestUtils.git', :tag => s.version.to_s }
 
   s.source_files          = 'Classes', 'Classes/*.{swift}'
-  s.pod_target_xcconfig   = { 'SWIFT_VERSION' => '4' }
+  s.pod_target_xcconfig   = { 'SWIFT_VERSION' => '4.2' }
 
   s.requires_arc          = true
 
